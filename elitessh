@@ -65,7 +65,7 @@
 {
 "Name": "VIVO WSS",
 "FLAG": "vivo",
-"Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]ACL- / HTTP/1.1[crlf]Host: LINKGRINGO[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: LINKGRINGO[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: linkgringo[crlf]Upgrade: Websocket[crlf][crlf]"
+"Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]ACL- / HTTP/1.1[crlf]Host: LINKGRINGO[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: LINKGRINGO[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: linkgringo[crlf]Upgrade: Websocket[crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
 "ProxyIP": "aws.lieger.site",
