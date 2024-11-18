@@ -6,7 +6,7 @@
     "UrlContato": "https://t.me/HGR26",
     "UrlTermos": "",
     "CheckUser": "true",
-    "UdpPort": "7300",
+    "UdpPort": "7100,7200,7300,7400,7500",
     "Servers": [
     {
         "Name": "AWS",
