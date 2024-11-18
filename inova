@@ -1,5 +1,5 @@
-{   "Version": "1.01",
-    "ReleaseNotes": "INNOVA GITHUB 1.01",
+{   "Version": "1.02",
+    "ReleaseNotes": "INNOVA GITHUB 1.02",
     "UrlUpdate": "https://abrir.site/inova2024",
     "Sms": "",
     "EmailFeedback": "",
@@ -19,12 +19,12 @@
         "PASS": ""
     }],
     "Networks": [{
-      "Name": "𝙄𝙉𝙉∅𝙑𝘼 BR VIVO",
+      "Name": "VIVO 01",
       "FLAG": "vivo",
-      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:[app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+      "Payload": "[split][lf][rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: seudomínio[crlf]Upgrade: websocket[crlf]Expect: 100-continue[crlf]@JNET-VPN[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.51.111",
+      "ProxyIP": "104.26.12.205#172.67.74.152#64:ff9b::ac43:4a98#64:ff9b::681a:ccd#vpn.cloudmi.datami.com#vivo.com.br#104.18.23.26#104.16.51.111#"104.18.23.26#vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
