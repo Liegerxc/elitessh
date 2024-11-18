@@ -114,13 +114,13 @@ Upgrade: websocket\r\n\r\n#[delay_split]ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.
       "Name": "ROTATE 02",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1
-Host: d1vzrze3fn27p6.cloudfront.net
+Host: [app_host]
 Connection: Upgrade
 Upgrade: websocket\n\n#PATCH / HTTP/1.1
 Host: d1vzrze3fn27p6.cloudfront.net
 Connection: Upgrade
 Upgrade: websocket\n\n#HEAD / HTTP/1.1
-Host: d1vzrze3fn27p6.cloudfront.net
+Host: [app_host]
 Connection: Upgrade
 Upgrade: websocket\n\n",
       "SNI": "",
@@ -133,7 +133,7 @@ Upgrade: websocket\n\n",
       {
       "Name": "ROTATE 03---",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3f3fkzp9txzkw.cloudfront.net Connection:Upgrade
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host] Connection:Upgrade
 Upgrade: websocket\n\n#PATCH / HTTP/1.1[lf]Host: d1vzrze3fn27p6.cloudfront.net[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]#HEAD / HTTP/1.1[crlf]Host:aws.lieger.site [crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "m.waze.com",
       "TlsIP": "",
@@ -144,7 +144,7 @@ Upgrade: websocket\n\n#PATCH / HTTP/1.1[lf]Host: d1vzrze3fn27p6.cloudfront.net[l
 {
       "Name": "VIVO 01",
       "FLAG": "vivo",
-      "Payload": "[rotate=ACL;GET;PATCH;HEAD] wss://[rotate=d1vzrze3fn27p6.cloudfront.net;aws.lieger.site]/ HTTP/1.0[crlf]Host: [rotate=web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;c.whatsapp.net;media.whatsapp.net;web.whatsapp.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;musicaclaro.com.br][crlf]Upgrade: Websocket[crlf]Proxy-Connection: Keep-Alive; Upgrade[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]tl[crlf][crlf]",
+      "Payload": "[rotate=ACL;GET;PATCH;HEAD] wss://[rotate=[app_host]]/ HTTP/1.0[crlf]Host: [rotate=web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;c.whatsapp.net;media.whatsapp.net;web.whatsapp.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;musicaclaro.com.br][crlf]Upgrade: Websocket[crlf]Proxy-Connection: Keep-Alive; Upgrade[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]tl[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "13.227.126.39#13.227.126.40#13.227.126.91#99.84.31.114#99.84.31.97#99.84.31.8#99.84.31.80#io.descomplica.com.br#3.163.10.29#3.163.10.81#3.163.10.19#3.163.10.100#conversions.appsflyer.com#3.163.10.112#3.163.10.104#3.163.10.54#3.163.10.121#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#launches.appsflyer.com#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#18.67.129.17#c6bank.onelink.me#99.84.31.110#99.84.31.38#99.84.31.63#99.84.31.9#13.248.245.213#54.231.225.121#65.9.95.105#18.66.147.27#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#13.227.126.39#13.227.126.40#13.227.126.91#13.227.126.39#13.227.126.40#13.227.126.91#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#104.26.5.32#104.16.239.166#104.19.241.93#104.18.28.182#104.19.239.25#104.18.33.113#172.64.154.143#104.18.99.70#104.16.53.111#172.67.188.168#104.17.64.225",
@@ -156,7 +156,7 @@ Upgrade: websocket\n\n#PATCH / HTTP/1.1[lf]Host: d1vzrze3fn27p6.cloudfront.net[l
       {
       "Name": "VIVO 05",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate= aws.lieger.site][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate= [app_host]][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111#108.158.161.49#108.139.182.100#104.18.7.41",
@@ -166,7 +166,7 @@ Upgrade: websocket\n\n#PATCH / HTTP/1.1[lf]Host: d1vzrze3fn27p6.cloudfront.net[l
       {
       "Name": "VIVO CLARO",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate= d1vzrze3fn27p6.cloudfront.net][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate= [app_host]][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111#108.158.161.49#108.139.182.100#104.18.7.41#108.139.182.44#108.139.182.13#108.139.182.125#108.139.182.91#18.67.129.14#18.67.129.77#18.67.129.73#18.67.129.122#18.67.129.77#18.67.129.122#18.67.129.73#18.67.129.14#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#108.139.182.80#108.139.182.102#108.139.182.17#108.139.182.18#18.67.145.128#18.67.145.113#18.67.145.51#18.67.145.105#108.139.95.70#108.139.95.34#108.139.95.9#108.139.95.25#18.64.207.113#18.64.207.6#18.64.207.103#18.64.207.38#108.158.122.62#108.158.122.32#108.158.122.97#108.158.122.24#170.82.174.15#170.82.174.15#52.85.24.47#52.85.24.89#52.85.24.11#52.85.24.19#3.162.247.13#3.162.247.73#3.162.247.25#3.162.247.51#18.161.200.93#18.161.200.122#18.161.200.72#18.161.200.25#13.33.123.115#13.33.123.2#13.33.123.10#13.33.123.112#13.33.123.112#13.33.123.10#13.33.123.115#13.33.123.2#3.163.10.19#3.163.10.100#3.163.10.81#3.163.10.29#172.64.150.8#104.18.7.41",
