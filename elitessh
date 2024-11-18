@@ -24,7 +24,8 @@
       "USER": "lieger",
       "PASS": ""
       },
-       {
+
+      {
       "Name": "ORACLE",
       "TYPE": "premium",
       "FLAG": "br.png",
@@ -70,7 +71,7 @@
 "ProxyIP": "aws.lieger.site",
 "ProxyPort": "80",
 "Info": "Sshproxy"
-},
+}
 
  ]
 }
