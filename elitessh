@@ -1,6 +1,6 @@
 {
-  "Version": "1.07",
-  "ReleaseNotes": "Elitessh GitHub 1.07",
+  "Version": "1.8",
+  "ReleaseNotes": "Elitessh GitHub 1.08",
   "UrlUpdate": "https://abrir.link/elitessh2024",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -54,7 +54,27 @@
 ],
 
 "Networks": [
+    {
+      "Name": "TIM 1",
+      "FLAG": "tim",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "apf.maisvantagenstim.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
 
+    {
+      "Name": "TIM 2",
+      "FLAG": "tim",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.66.0.157",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
 {
 "Name": "VIVO WSS 1",
 "FLAG": "vivo",
