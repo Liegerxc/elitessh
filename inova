@@ -1,5 +1,5 @@
-{   "Version": "1.08",
-    "ReleaseNotes": "INNOVA GITHUB 1.08.",
+{   "Version": "1.09",
+    "ReleaseNotes": "INNOVA GITHUB 1.09",
     "UrlUpdate": "https://abrir.site/inova2024",
     "Sms": "",
     "EmailFeedback": "",
@@ -91,7 +91,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "lojaonline.vivo.com.br#gedoc.vivo.com.br#lojaempresas.vivo.com.br#104.26.12.205#172.67.74.152#64:ff9b::ac43:4a98#64:ff9b::681a:ccd#104.26.12.205#172.67.74.152#vpn.cloudmi.datami.com#vivo.com.br#104.18.23.26#104.16.51.111",
-      "ProxyPort": "443",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
   ]
