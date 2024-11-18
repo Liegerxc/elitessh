@@ -1,6 +1,6 @@
 {
-  "Version": "1.05",
-  "ReleaseNotes": "Elitessh GitHub 1.05",
+  "Version": "1.06",
+  "ReleaseNotes": "Elitessh GitHub 1.06",
   "UrlUpdate": "https://abrir.link/elitessh2024",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -319,12 +319,12 @@
 
 
 {
-"Name": "🟣VIVO FRONT 01",
-"FLAG": "vivo",
-"Payload": "GET / HTTP/1.1[crlf]Host: d1vzrze3fn27p6.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+"Name": "🟣TIM 01",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[lf]Host: revive.timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: aws.mastertv.store[lf]Upgrade: Websocket[crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
-"ProxyIP": "104.17.74.206",
+"ProxyIP": "revive.timrecompensas.com.br",
 "ProxyPort": "80",
 "Info": "Proxy"
 },
