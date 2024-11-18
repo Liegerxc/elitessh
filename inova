@@ -85,7 +85,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO 4,
+      "Name": "VIVO 4",
       "FLAG": "vivo",
       "Payload": "[rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
