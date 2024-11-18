@@ -92,7 +92,7 @@
       "TlsIP": "",
       "ProxyIP": "lojaonline.vivo.com.br#gedoc.vivo.com.br#lojaempresas.vivo.com.br#104.26.12.205#172.67.74.152#64:ff9b::ac43:4a98#64:ff9b::681a:ccd#104.26.12.205#172.67.74.152#vpn.cloudmi.datami.com#vivo.com.br#104.18.23.26#104.16.51.111",
       "ProxyPort": "443",
-      "Info": "Proxy"
+      "Info": "SSLPROXXY"
     },
   ]
 }
