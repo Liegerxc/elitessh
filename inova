@@ -8,10 +8,10 @@
     "CheckUser": "true",
     "UdpPort": "7300",
     "Servers": [{
-        "Name": "𝙄𝙉𝙉∅𝙑𝘼 BR",
+        "Name": AWS",
         "TYPE": "premium",
         "FLAG": "br.png",
-        "ServerIP": "104.16.57.6",
+        "ServerIP": "aws.mastertv.store",
         "CheckUser": "",
         "ServerPort": "22",
         "SSLPort": "443",
