@@ -1,6 +1,6 @@
 {
-      "Version": "1.01",
-      "ReleaseNotes": "EliteSSH GitHub 1.01.",
+      "Version": "1.02",
+      "ReleaseNotes": "EliteSSH GitHub 1.02",
       "UrlUpdate": "http://aws.mastertv.store/php/editor/uploads/ssh2024.json",
       "Sms": "https://t.me/",
       "EmailFeedback": "https://t.me/",
@@ -52,11 +52,10 @@
 {
 "Name": "VIVO PRÉ",
 "FLAG": "vivo",
-"Payload": "PATCH wss://d1vzrze3fn27p6.cloudfront.net/ HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][split][crlf]#HEAD / HTTP/1.1[lf]Host: d1vzrze3fn27p6.cloudfront.net[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]
-",
+"Payload": "[split][lf][rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Expect: 100-continue[crlf]@JNET-VPN[crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
-"ProxyIP": "108.139.113.89#130.176.11.146#205.251.249.0#70.132.10.90#54.192.0.3#15.158.7.76#143.204.0.3#frontend-tim-recarga-client.m4u.com.br#cc-brand.plat-m4u.io#oi-recarga.oston.io#www.timlive.tim.com.br#timlive.tim.com.br#52.85.213.77#52.85.213.112#52.85.213.121#52.85.213.74#52.67.198.135#108.139.113.45#dex.descomplica.com.br#13.33.123.107#18.67.129.91#18.67.129.103#18.67.129.119#18.67.129.10#13.227.126.39#13.227.126.40#13.227.126.91#99.84.31.114#99.84.31.97#99.84.31.8#99.84.31.80#io.descomplica.com.br#3.163.10.29#3.163.10.81#3.163.10.19#3.163.10.100#conversions.appsflyer.com#3.163.10.112#3.163.10.104#3.163.10.54#3.163.10.121#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#launches.appsflyer.com#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#18.67.129.17#c6bank.onelink.me#99.84.31.110#99.84.31.38#99.84.31.63#99.84.31.9#13.248.245.213#54.231.225.121#65.9.95.105#18.66.147.27#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#13.227.126.39#13.227.126.40#13.227.126.91#13.227.126.39#13.227.126.40#13.227.126.91#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58",
+"ProxyIP": "104.26.12.205#172.67.74.152#64:ff9b::ac43:4a98#64:ff9b::681a:ccd#108.139.113.89#130.176.11.146#205.251.249.0#70.132.10.90#54.192.0.3#15.158.7.76#143.204.0.3#frontend-tim-recarga-client.m4u.com.br#cc-brand.plat-m4u.io#oi-recarga.oston.io#www.timlive.tim.com.br#timlive.tim.com.br#52.85.213.77#52.85.213.112#52.85.213.121#52.85.213.74#52.67.198.135#108.139.113.45#dex.descomplica.com.br#13.33.123.107#18.67.129.91#18.67.129.103#18.67.129.119#18.67.129.10#13.227.126.39#13.227.126.40#13.227.126.91#99.84.31.114#99.84.31.97#99.84.31.8#99.84.31.80#io.descomplica.com.br#3.163.10.29#3.163.10.81#3.163.10.19#3.163.10.100#conversions.appsflyer.com#3.163.10.112#3.163.10.104#3.163.10.54#3.163.10.121#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#launches.appsflyer.com#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#18.67.129.17#c6bank.onelink.me#99.84.31.110#99.84.31.38#99.84.31.63#99.84.31.9#13.248.245.213#54.231.225.121#65.9.95.105#18.66.147.27#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#13.227.126.39#13.227.126.40#13.227.126.91#13.227.126.39#13.227.126.40#13.227.126.91#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58",
 "ProxyPort": "80",
 "Info": "Proxy"
 },
@@ -65,11 +64,7 @@
 {
 "Name": "VIVO WSS",
 "FLAG": "vivo",
-"Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: vigia.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]#GET / HTTP/1.1\r\n
-Host: [app_host]\r\n
-Connection: Upgrade\r\n
-User-Agent: [ua]\r\n
-Upgrade: websocket\r\n\r\n#[delay_split]ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com]@SSHPLUSPRO[crlf]#[delay_split][crlf] SEARCH HTTP/1.1[crlf]Host: www.google.com.br[crlf]Connection: keep-alive[crlf]Referer: http://www.google.com.br[crlf][crlf]#CONNECT tibr-sdgw.datami.net:22 [protocol][crlf][crlf]#GET / HTTP/1.1[crlf]Host: [host] [crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]#ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#ACL HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]X-Online-Host: [app_host][crlf]Connection:l llbj  Keep-Alive[crlf]User-Agent: [ua][crlf]#ACL HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]X-Online-Host: [app_host][crlf]Connection:l llbj  Keep-Alive[crlf]User-Agent: [ua][crlf]#ACL HTTP/1.1 Host: plus.google.com \r\n \r\n#[delay_split]ACL / HTTP/1.1[crlf]Host: vivo.com.br[crlf]Upgrade: websocket[crlf][crlf]#[split]ACL / HTTP/1.1[crlf]Host: orion.c6bank.app[crlf][crlf]#[delay_split]GET / HTTP/1.1[crlf]Host: vivo.com.br[crlf]Upgrade: websocket[crlf][crlf]#[split]GET HTTP/1.1[crlf][crlf]Host: Websocket[crlf]#[split]GET / HTTP/1.1[crlf][crlf]Host: gratis.vivo-bemobi.com[crlf]Upgrade: WebSocket[crlf][crlf]#[protocol][crlf] [crlf][crlf]#HTTP/1.1[crlf] [crlf][crlf]#ACL 127.0.0.1:80[instant_split]ACL www.veek.com.br HTTP/1.9[crlf][crlf]#MERGE p.adsymptotic.com HTTP/2.0[crlf]Host: [app_host][crlf]Connection: update, Keep-Alive-Status 101[crlf]Update: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)tlcomputingbr[crlf]Referer: http://www.google.com[crlf]#[protocol][crlf] [crlf][crlf]@#ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]#HTTP/1.1[crlf] [crlf][crlf]•#PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: [lf]#[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]#[split][lf]TRACE / HTTP/1.1[crlf]Host: vivo.tl[crlf]Upgrade: WebSocketExtensions[crlf]Connection: Upgrade-Insecure-Requests[crlf][crlf]#[split][lf]ACL / [protocol] [crlf]Host: microsoft.com[crlf]Connection: Upgrade[crlf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: [host]#[delay_split]BCOPY / [crlf][crlf]#[delay_split]GET / HTTP/1.1[crlf][ssh][crlf]#POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: [app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]#\r[instant_split][raw][auth]OPTIONS / HTTP/1.1[crlf]Host: baal.tech/captive-static/tarif-def/pd/index.html[crlf]X-Online-Host: www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.html[crlf][crlf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: portalrecarga.vivo.com.br[lf]#[delay_split][raw] ACL HTTP/2.0[crlf]",
+"Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]ACL- / HTTP/1.1[crlf]Host: LINKGRINGO[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: LINKGRINGO[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: linkgringo[crlf]Upgrade: Websocket[crlf][crlf]"
 "SNI": "",
 "TlsIP": "",
 "ProxyIP": "aws.lieger.site",
@@ -77,181 +72,5 @@ Upgrade: websocket\r\n\r\n#[delay_split]ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.
 "Info": "Sshproxy"
 },
 
-{
-"Name": "VIVO PRÉ 01",
-"FLAG": "vivo",
-"Payload": "ACL / HTTP/1.1[crlf]Host: [app_host][split][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "172.64.155.199#104.18.32.57#104.17.74.206#104.18.22.26",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
-
-{
-"Name": "VIVO PRÉ 02",
-"FLAG": "vivo",
-"Payload": "ACL / HTTP/1.1[crlf]Host: [app_host][split][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "13.32.208.54#108.158.137.105#108.158.137.101#108.158.137.56#108.158.137.56#108.158.161.49#13.227.126.39#99.84.31.10#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.138.64.15#18.67.76.54#63.34.109.75#18.67.76.95#108.158.161.49#13.227.126.39#99.84.37.44#13.226.22.87#108.138.64.15#18.67.76.54#63.34.109.75#18.67.76.95#frontend-tim-recarga-client.m4u.com.br#52.85.213.77#52.85.213.112#52.85.213.121#52.85.213.74#52.67.198.135#cc-brand.plat-m4u.io#108.139.113.45#dex.descomplica.com.br#13.33.123.107#18.67.129.91#18.67.129.103#18.67.129.119#18.67.129.10",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
-
-{
-"Name": "ROTATE 01",
-"FLAG": "vivo",
-"Payload": "[rotate=ACL;GET;PATCH;HEAD] wss://[rotate=d3f3fkzp9txzkw.cloudfront.net;aws.lieger.site]/ HTTP/1.0[crlf]Host: [rotate=web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;c.whatsapp.net;media.whatsapp.net;web.whatsapp.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;musicaclaro.com.br][crlf]Upgrade: Websocket[crlf]Proxy-Connection: Keep-Alive; Upgrade[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]tl[crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "104.17.73.206#frontend-tim-recarga-client.m4u.com.br#52.85.213.77#52.85.213.112#52.85.213.121#52.85.213.74#52.67.198.135#cc-brand.plat-m4u.io#108.139.113.45#dex.descomplica.com.br#13.33.123.107#18.67.129.91#18.67.129.103#18.67.129.119#18.67.129.10#oi-recarga.oston.io#www.timlive.tim.com.br#timlive.tim.com.br#13.227.126.39#13.227.126.40#13.227.126.91#99.84.31.114#99.84.31.97#99.84.31.8#99.84.31.80#io.descomplica.com.br#3.163.10.29#3.163.10.81#3.163.10.19#3.163.10.100#conversions.appsflyer.com#3.163.10.112#3.163.10.104#3.163.10.54#3.163.10.121#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#launches.appsflyer.com#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#18.67.129.17#c6bank.onelink.me#99.84.31.110#99.84.31.38#99.84.31.63#99.84.31.9#13.248.245.213#54.231.225.121#65.9.95.105#18.66.147.27#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#13.227.126.39#13.227.126.40#13.227.126.91#13.227.126.39#13.227.126.40#13.227.126.91#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#104.26.5.32#104.16.239.166#104.19.241.93#104.18.28.182#104.19.239.25#104.18.33.113#172.64.154.143#104.18.99.70#104.16.53.111#172.67.188.168#104.17.64.225",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
-
-      {
-      "Name": "ROTATE 02",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1
-Host: [app_host]
-Connection: Upgrade
-Upgrade: websocket\n\n#PATCH / HTTP/1.1
-Host: d1vzrze3fn27p6.cloudfront.net
-Connection: Upgrade
-Upgrade: websocket\n\n#HEAD / HTTP/1.1
-Host: [app_host]
-Connection: Upgrade
-Upgrade: websocket\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "13.32.208.54#108.158.137.105#108.158.137.101#108.158.137.56#108.158.137.56#108.158.161.49#13.227.126.39#99.84.31.10#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.138.64.15#18.67.76.54#63.34.109.75#18.67.76.95#108.158.161.49#13.227.126.39#99.84.37.44#13.226.22.87#108.138.64.15#18.67.76.54#63.34.109.75#18.67.76.95#frontend-tim-recarga-client.m4u.com.br#52.85.213.77#52.85.213.112#52.85.213.121#52.85.213.74#52.67.198.135#cc-brand.plat-m4u.io#108.139.113.45#dex.descomplica.com.br#13.33.123.107#18.67.129.91#18.67.129.103#18.67.129.119#18.67.129.10",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-       
-      {
-      "Name": "ROTATE 03---",
-      "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host] Connection:Upgrade
-Upgrade: websocket\n\n#PATCH / HTTP/1.1[lf]Host: d1vzrze3fn27p6.cloudfront.net[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]#HEAD / HTTP/1.1[crlf]Host:aws.lieger.site [crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "m.waze.com",
-      "TlsIP": "",
-      "ProxyIP": "assine.vivo.com.br#legado.vivo.com.br#assine.vivo.com.br#104.17.74.206#104.17.72.206#104.17.71.206#104.17.70.206#104.19.241.93#104.18.28.182#104.19.239.25#104.18.33.113#172.64.154.143#104.18.99.70#104.16.53.111#172.67.188.168#104.17.64.225#104.16.51.111#108.158.161.49#108.139.182.100#104.18.7.41#108.139.182.44#108.139.182.13#108.139.182.125#108.139.182.91#18.67.129.14#18.67.129.77#18.67.129.73#18.67.129.122#18.67.129.77#18.67.129.122#18.67.129.73#18.67.129.14#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#108.139.182.80#108.139.182.102#108.139.182.17#108.139.182.18#18.67.145.128#18.67.145.113#18.67.145.51#18.67.145.105#108.139.95.70#108.139.95.34#108.139.95.9#108.139.95.25#18.64.207.113#18.64.207.6#18.64.207.103#18.64.207.38#108.158.122.62#108.158.122.32#108.158.122.97#108.158.122.24#170.82.174.15#170.82.174.15#52.85.24.47#52.85.24.89#52.85.24.11#52.85.24.19#3.162.247.13#3.162.247.73#3.162.247.25#3.162.247.51#18.161.200.93#18.161.200.122#18.161.200.72#18.161.200.25#13.33.123.115#13.33.123.2#13.33.123.10#13.33.123.112#13.33.123.112#13.33.123.10#13.33.123.115#13.33.123.2#3.163.10.19#3.163.10.100#3.163.10.81#3.163.10.29",
-      "ProxyPort": "443",
-      "Info": "Ssl"
-      },
-{
-      "Name": "VIVO 01",
-      "FLAG": "vivo",
-      "Payload": "[rotate=ACL;GET;PATCH;HEAD] wss://[rotate=[app_host]]/ HTTP/1.0[crlf]Host: [rotate=web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;c.whatsapp.net;media.whatsapp.net;web.whatsapp.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;m.waze.com;m.twitter.com;twitter.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;musicaclaro.com.br][crlf]Upgrade: Websocket[crlf]Proxy-Connection: Keep-Alive; Upgrade[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]tl[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "13.227.126.39#13.227.126.40#13.227.126.91#99.84.31.114#99.84.31.97#99.84.31.8#99.84.31.80#io.descomplica.com.br#3.163.10.29#3.163.10.81#3.163.10.19#3.163.10.100#conversions.appsflyer.com#3.163.10.112#3.163.10.104#3.163.10.54#3.163.10.121#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#launches.appsflyer.com#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#18.67.129.17#c6bank.onelink.me#99.84.31.110#99.84.31.38#99.84.31.63#99.84.31.9#13.248.245.213#54.231.225.121#65.9.95.105#18.66.147.27#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#13.227.126.39#13.227.126.40#13.227.126.91#13.227.126.39#13.227.126.40#13.227.126.91#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#104.26.5.32#104.16.239.166#104.19.241.93#104.18.28.182#104.19.239.25#104.18.33.113#172.64.154.143#104.18.99.70#104.16.53.111#172.67.188.168#104.17.64.225",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-
-
-      {
-      "Name": "VIVO 05",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate= [app_host]][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.51.111#108.158.161.49#108.139.182.100#104.18.7.41",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "VIVO CLARO",
-      "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate= [app_host]][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.51.111#108.158.161.49#108.139.182.100#104.18.7.41#108.139.182.44#108.139.182.13#108.139.182.125#108.139.182.91#18.67.129.14#18.67.129.77#18.67.129.73#18.67.129.122#18.67.129.77#18.67.129.122#18.67.129.73#18.67.129.14#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#108.139.182.80#108.139.182.102#108.139.182.17#108.139.182.18#18.67.145.128#18.67.145.113#18.67.145.51#18.67.145.105#108.139.95.70#108.139.95.34#108.139.95.9#108.139.95.25#18.64.207.113#18.64.207.6#18.64.207.103#18.64.207.38#108.158.122.62#108.158.122.32#108.158.122.97#108.158.122.24#170.82.174.15#170.82.174.15#52.85.24.47#52.85.24.89#52.85.24.11#52.85.24.19#3.162.247.13#3.162.247.73#3.162.247.25#3.162.247.51#18.161.200.93#18.161.200.122#18.161.200.72#18.161.200.25#13.33.123.115#13.33.123.2#13.33.123.10#13.33.123.112#13.33.123.112#13.33.123.10#13.33.123.115#13.33.123.2#3.163.10.19#3.163.10.100#3.163.10.81#3.163.10.29#172.64.150.8#104.18.7.41",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "VIVO 03",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate= [app_host]][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "assine.vivo.com.br#legado.vivo.com.br#assine.vivo.com.br#104.17.74.206#104.17.72.206#104.17.71.206#104.17.70.206#104.19.241.93#104.18.28.182#104.19.239.25#104.18.33.113#172.64.154.143#104.18.99.70#104.16.53.111#172.67.188.168#104.17.64.225#172.64.155.199#104.18.32.57#104.17.74.206#104.18.22.26#104.16.51.111#108.158.161.49#108.139.182.100#104.18.7.41#108.139.182.44#108.139.182.13#108.139.182.125#108.139.182.91#18.67.129.14#18.67.129.77#18.67.129.73#18.67.129.122#18.67.129.77#18.67.129.122#18.67.129.73#18.67.129.14#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#13.227.126.18#13.227.126.7#13.227.126.119#13.227.126.2#108.139.182.80#108.139.182.102#108.139.182.17#108.139.182.18#18.67.145.128#18.67.145.113#18.67.145.51#18.67.145.105#108.139.95.70#108.139.95.34#108.139.95.9#108.139.95.25#18.64.207.113#18.64.207.6#18.64.207.103#18.64.207.38#108.158.122.62#108.158.122.32#108.158.122.97#108.158.122.24#170.82.174.15#170.82.174.15#52.85.24.47#52.85.24.89#52.85.24.11#52.85.24.19#3.162.247.13#3.162.247.73#3.162.247.25#3.162.247.51#18.161.200.93#18.161.200.122#18.161.200.72#18.161.200.25#13.33.123.115#13.33.123.2#13.33.123.10#13.33.123.112#13.33.123.112#13.33.123.10#13.33.123.115#13.33.123.2#3.163.10.19#3.163.10.100#3.163.10.81#3.163.10.29#172.64.150.8#104.18.7.41",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "TIM 2024",
-      "FLAG": "tim",
-      "Payload": "DELETE / HTTP/1.1[crlf]Host: timpospromo.com.br[crlf] [crlf]DELETE / HTTP/1.1[lf]Host: [app_host][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "99.84.31.80#13.227.126.91#52.85.213.121#13.227.126.58",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "RECARGA EXPIRADA 02",
-      "FLAG": "tim",
-      "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "br01.tunnelvpn.online#br02.tunnelvpn.online",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "RECARGA EM DIA 01",
-      "FLAG": "tim",
-      "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=br01.tunnelvpn.online;br02.tunnelvpn.online][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "[app_host]",
-      "ProxyIP": "104.16.239.166#104.19.239.25#104.16.53.111#104.18.99.70#104.17.64.225",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },      
-      {
-      "Name": "CLARO PREZAO/FLEX 1",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "dns.web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Ssl"
-      },
-      {
-      "Name": "CLARO ROTATE",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.waze.com#twitter.com#m.twitter.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Ssl"
-      },
-      {
-      "Name": "CLARO PREZAO/FLEX 3",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.twitter.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Ssl"
-      },
-      {
-      "Name": "FLUKE",
-      "FLAG": "br",
-      "Payload": "",
-      "SNI": "m.web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Ssl"
-      }
  ]
 }
