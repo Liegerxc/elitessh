@@ -1,6 +1,6 @@
 {
-  "Version": "1.22",
-  "ReleaseNotes": "Elitessh GitHub 1.22",
+  "Version": "1.23",
+  "ReleaseNotes": "Elitessh GitHub 1.23",
   "UrlUpdate": "https://abrir.link/elitessh2024",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -70,7 +70,7 @@
       {
             "Name": "🟣VIVO TODOS DDD 1",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: app547685[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Backend: app547685[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "teatrovivo.com.br",
@@ -80,7 +80,7 @@
         {
             "Name": "🟣VIVO TODOS DDD 2",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: aws.mastertv.store[crlf]Backend: app547685[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Backend: app547685[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "gedoc.vivo.com.br",
@@ -90,10 +90,10 @@
         {
             "Name": "🟣VIVO TODOS DDD 3",
             "FLAG": "vivo",
-            "Payload": "ACL / HTTP/1.1[crlf]Host: [random=breadbox.app;c6bank.zendesk.com;cdn.navdmp.com;mobile.hom.c6bank.app][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: app547685[crlf]Connection:[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "ACL / HTTP/1.1[crlf]Host: [random=[app_host];breadbox.app;c6bank.zendesk.com;cdn.navdmp.com;mobile.hom.c6bank.app][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: app547685[crlf]Connection:[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "172.64.154.143#172.66.0.157#162.159.140.159#162.159.153.238#162.159.152.26#104.18.37.136#172.64.150.120#104.18.33.113",
+            "ProxyIP": "gedoc.vivo.com.br",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
