@@ -1,6 +1,6 @@
 {
-  "Version": "1.13",
-  "ReleaseNotes": "Elitessh GitHub 1.13",
+  "Version": "1.14",
+  "ReleaseNotes": "Elitessh GitHub 1.14",
   "UrlUpdate": "https://abrir.link/elitessh2024",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -26,10 +26,10 @@
 "PASS": ""
 },
 {
-"Name": "SERVIDOR 2 - FRONT",
+"Name": "SERVIDOR 2 - FRONT AWS",
 "TYPE": "premium",
 "FLAG": "br.png",
-"ServerIP": "d1vzrze3fn27p6.cloudfront.net",
+"ServerIP": "d3f3fkzp9txzkw.cloudfront.net",
 "CheckUser": "http://aws.lieger.site:5455/checkUser",
 "ServerPort": "22",
 "SSLPort": "443",
