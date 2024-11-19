@@ -1,6 +1,6 @@
 {
-  "Version": "1.20",
-  "ReleaseNotes": "Elitessh GitHub 1.20",
+  "Version": "1.21",
+  "ReleaseNotes": "Elitessh GitHub 1.21",
   "UrlUpdate": "https://abrir.link/elitessh2024",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -322,7 +322,7 @@
 "Payload": "ACL / HTTP/1.1[crlf]Host: [app_host][split][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
-"ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br#104.18.23.26",
+"ProxyIP": "104.18.23.26",
 "ProxyPort": "80",
 "Info": "Proxy"
 },
