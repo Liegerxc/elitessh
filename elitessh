@@ -1,6 +1,6 @@
 {
-  "Version": "1.11",
-  "ReleaseNotes": "Elitessh GitHub 1.11",
+  "Version": "1.12",
+  "ReleaseNotes": "Elitessh GitHub 1.12",
   "UrlUpdate": "https://abrir.link/elitessh2024",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -78,7 +78,8 @@
 {
 "Name": "VIVO NOV 1 - ROTATE",
 "FLAG": "vivo",
-"Payload": "[split][lf][rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Expect: 100-continue[crlf]@JNET-VPN[crlf][crlf]",
+"Payload": "GET /HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf][crlf]X-Status-Id: tunnel[crlf]
+Upgrade: Websocket[crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
 "ProxyIP": "lojaonline.vivo.com.br#gedoc.vivo.com.br#lojaempresas.vivo.com.br#vpn.cloudmi.datami.com#vivo.com.br#104.26.12.205#172.67.74.152#64:ff9b::ac43:4a98#64:ff9b::681a:ccd#[app_host]#15.229.193.66",
