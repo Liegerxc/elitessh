@@ -1,174 +1,87 @@
 {
-  "Version": "1.26",
-  "ReleaseNotes": "Elitessh GitHub 1.26",
-  "UrlUpdate": "http://192.168.3.48/vpn/elitessh.json",
+  "Version": "1.35",
+  "ReleaseNotes": "Elitessh GitHub 1.35",
+  "UrlUpdate": "http://apache.mastertv.store/vpn/elitessh.json",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
   "UrlContato": "https://t.me/",
   "UrlTermos": "",
-  "CheckUser": "true",
-  "Udp": [
-    {
-      "Porta": "7100, 7200, 7300, 7400, 7500"
-    }
-  ],
-
-"Servers": [
-{
-"Name": "SERVIDOR 1 - AWS",
-"TYPE": "premium",
-"FLAG": "br.png",
-"ServerIP": "15.229.193.66",
-"CheckUser": "http://aws.lieger.site:5455/checkUser",
-"ServerPort": "22",
-"SSLPort": "443",
-"USER": "lieger",
-"PASS": ""
-},
-{
-"Name": "SERVIDOR 2 - FRONT AWS",
-"TYPE": "premium",
-"FLAG": "br.png",
-"ServerIP": "d3f3fkzp9txzkw.cloudfront.net",
-"CheckUser": "http://aws.lieger.site:5455/checkUser",
-"ServerPort": "22",
-"SSLPort": "443",
-"USER": "lieger",
-"PASS": ""
-},
-
-{
-"Name": "SERVIDOR 2 - ORACLE",
-"TYPE": "premium",
-"FLAG": "br.png",
-"ServerIP": "138.2.246.28",
-"CheckUser": "http://oracle.lieger.site:5455/checkUser",
-"ServerPort": "22",
-"SSLPort": "443",
-"USER": "lieger",
-"PASS": ""
-}
-
-
-
-],
-
-"Networks": [
-    {
-      "Name": "TIM 1",
-      "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "apf.maisvantagenstim.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
-
-
-      {
-            "Name": "🟣VIVO TODOS DDD 1",
+  "CheckUser": "false",
+    "UdpPort": "7300",
+    "Servers": [
+	{
+        "Name": "SERVIDOR AWS 🔰",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "aws.mastertv.store",
+        "CheckUser": "",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+   	},
+	{
+        "Name": "SERVIDOR ORACLE",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "oracle.mastertv.store",
+        "CheckUser": "",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "VIVO 100% PROXY 1🟣🔰",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Backend: app547685[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
+            "Payload": "[delay_split]SEARCH HTTP / Host:api-equipamentos.vivo.com.br/ HTTP/1.1[crlf]X-Online-Host: api-equipamentos.vivo.com.br[crlf]X-Forwarded-Host: api-equipamentos.vivo.com.br[crlf]Proxy-Connection: keep-alive[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "teatrovivo.com.br",
+            "ProxyIP": "[app_host]",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
-            "Name": "🟣VIVO TODOS DDD 2",
+            "Name": "VIVO 2 /MUDAR 2G E DEPOIS 3G ⚠️",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Backend: app547685[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
+            "Payload": "[delay_split]\nACL [host_port]@portalrecarga.vivo.com.br/recarga/home/[protocol]\nPATCH  http://sdp.vivo.com.br/ HTTP/1.1\nHost: portalrecarga.vivo.com.br/recarga/home/produto[crlf]X-Forwarded-For: portalrecarga.vivo.com.br/recarga/home/\n\n\n",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "gedoc.vivo.com.br",
+            "ProxyIP": "[app_host]",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
-            "Name": "🟣VIVO TODOS DDD 3",
-            "FLAG": "vivo",
-            "Payload": "ACL / HTTP/1.1[crlf]Host: [random=[app_host];breadbox.app;c6bank.zendesk.com;cdn.navdmp.com;mobile.hom.c6bank.app][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: app547685[crlf]Connection:[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+            "Name": "TIM apf 1 🚫✅️",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: venomssh01.online[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "gedoc.vivo.com.br",
+            "ProxyIP": "apf.maisvantagenstim.com.br",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
-            "Name": "",
-            "FLAG": "",
-            "Payload": "",
+            "Name": "TIM revive 2 🚫✅️",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: venomssh01.online[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "",
-            "ProxyPort": "",
-            "Info": ""
-        },
-        {
-            "Name": "🟪VIVO PLANO CONTROLE",
-            "FLAG": "",
-            "Payload": "",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "",
-            "ProxyPort": "",
-            "Info": ""
-        },
-        {
-            "Name": "VIVO CONTROLE 1",
-            "FLAG": "vivo",
-            "Payload": "PATCH / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.17.70.206",
+            "ProxyIP": "revive.timrecompensas.com.br",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
-            "Name": "VIVO CONTROLE 2",
-            "FLAG": "vivo",
-            "Payload": "PATCH / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
+            "Name": "TIM datami 3 ✅️",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: venomssh[lf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "104.26.5.32",
+            "ProxyIP": "vpn.cloudmi.datami.com",
             "ProxyPort": "80",
             "Info": "Proxy"
-        },
-        {
-            "Name": "VIVO CONTROLE 3 ROTATE",
-            "FLAG": "vivo",
-            "Payload": "PATCH / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.26.4.32",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "VIVO CONTROLE 4",
-            "FLAG": "vivo",
-            "Payload": "PATCH / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "141.193.213.10",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "VIVO CONTROLE 5",
-            "FLAG": "vivo",
-            "Payload": "PATCH / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "141.193.213.11",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-
-
-
-]
+        }
+    ]
 }
