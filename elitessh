@@ -1,6 +1,6 @@
 {
-  "Version": "1.22",
-  "ReleaseNotes": "Elitessh GitHub 1.22",
+  "Version": "1.24",
+  "ReleaseNotes": "Elitessh GitHub 1.24",
   "UrlUpdate": "https://raw.githubusercontent.com/Liegerxc/elitessh/refs/heads/main/elitessh",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -15,11 +15,11 @@
 
 "Servers": [
 {
-"Name": "SERVIDOR 1 - AWS",
+"Name": "SERVIDOR 1 - AWS 🔰",
 "TYPE": "premium",
 "FLAG": "br.png",
 "ServerIP": "aws.mastertv.store",
-"CheckUser": "http://aws.lieger.site:5455/checkUser",
+"CheckUser": "http://aws.mastertv.store:5455/checkUser",
 "ServerPort": "22",
 "SSLPort": "443",
 "USER": "lieger",
@@ -55,7 +55,7 @@
 
 "Networks": [
     {
-      "Name": "TIM 1",
+      "Name": "TIM 1 🔰",
       "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -66,7 +66,7 @@
     },
 
     {
-      "Name": "TIM 2",
+      "Name": "TIM 2 🔰",
       "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -75,6 +75,18 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+    {
+      "Name": "VIVO 2 ⚠️",
+      "FLAG": "vivo",
+      "Payload": "[delay_split]\nACL [host_port]@portalrecarga.vivo.com.br/recarga/home/[protocol]\nPATCH  http://sdp.vivo.com.br/ HTTP/1.1\nHost: portalrecarga.vivo.com.br/recarga/home/produto[crlf]X-Forwarded-For: portalrecarga.vivo.com.br/recarga/home/\n\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+
+
 {
 "Name": "VIVO 1 - ROTATE",
 "FLAG": "vivo",
