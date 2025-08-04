@@ -1,0 +1,153 @@
+{
+  "Version": "1.43",
+  "ReleaseNotes": "Elitessh GitHub 1.33",
+  "UrlUpdate": "http://apache.mastertv.store/vpn/elitessh.json",
+  "Sms": "https://bitbin.it/yI7gCB5r/raw/",
+  "EmailFeedback": "elitessh@gmail.com",
+  "UrlContato": "https://t.me/",
+  "UrlTermos": "",
+  "CheckUser": "false",
+    "UdpPort": "7100,7200,7300,7400,7500",
+    "Servers": [
+	{
+        "Name": "SERVIDOR AWS 🔰",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "aws.mastertv.store",
+        "CheckUser": "",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+   	},
+	{
+        "Name": "SERVIDOR ORACLE",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "oracle.mastertv.store",
+        "CheckUser": "",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "VIVO 100% PROXY 1🟣🔰",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]SEARCH HTTP / Host:api-equipamentos.vivo.com.br/ HTTP/1.1[crlf]X-Online-Host: api-equipamentos.vivo.com.br[crlf]X-Forwarded-Host: api-equipamentos.vivo.com.br[crlf]Proxy-Connection: keep-alive[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+	{
+            "Name": "VIVO 100% PROXY 2🟣🔰",
+            "FLAG": "vivo",
+            "Payload": "[split][lf]PATCH / HTTP/1.9Host: ced.vivo.ddivulga.com Connection: keep-alive User-Agent: [crlf]Referer: http://a.vivo.ddivulga.com/index-tag.html[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+	{
+            "Name": "VIVO 100% PROXY 3🟣🔰",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL sni://cdn.jsdelivr.net HTTP/1.1[crlf]Host: br2.betao.shop [crlf]X-Forward-Host: br2.betao.shop[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+                
+        {
+            "Name": "VIVO 2 ⚠️",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]\nACL [host_port]@portalrecarga.vivo.com.br/recarga/home/[protocol]\nPATCH  http://sdp.vivo.com.br/ HTTP/1.1\nHost: portalrecarga.vivo.com.br/recarga/home/produto[crlf]X-Forwarded-For: portalrecarga.vivo.com.br/recarga/home/\n\n\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+
+	{
+"Name": "🟣PRE PAGO 1",
+"FLAG": "vivo",
+"Payload": "[split]ACL / HTTP/1.1[crlf]Upgrade: Websocket[lf]lHost: gedoc.vivo.com.br[crlf] [crlf]GET / HTTP/1.1[crlf]Host: serv7.painelvip2.online[crlf]Upgrade: Websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "::ffff:fe5:c142",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "🟣PRE PAGO 2",
+"FLAG": "vivo",
+"Payload": "[[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41;172.64.150.8[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "::ffff:fe5:c142",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "🟣PRE PAGO 3",
+"FLAG": "vivo",
+"Payload": "[split]BDELETE / [host_port]HTTP/1.1[crlf]Host: minhaclaro.cotclaro.com.br[lf]Host: minhaclaro.cotclaro.com.br[lf]Connection: Upgrade[method][lf]Service: Multi-http[lf]ModeX: Bypass[lf] Enhanced: Upgrade[lf] Proxi: minhaclaro.cotclaro.com.br[lf]Connection: Upgrade[lf]Upgrade: websocket[lf] [host]@[host][lf][lf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "::ffff:fe5:c142",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "🟣PRE PAGO 4",
+"FLAG": "vivo",
+"Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: serv7.painelvip2.online [crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "::ffff:fe5:c142",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+
+
+
+
+        {
+            "Name": "TIM apf 1 🚫✅️",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: venomssh01.online[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "apf.maisvantagenstim.com.br",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM revive 2 🚫✅️",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: venomssh01.online[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "revive.timrecompensas.com.br",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM datami 3 ✅️",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: venomssh[lf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "vpn.cloudmi.datami.com",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        }
+    ]
+}
