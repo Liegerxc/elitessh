@@ -96,22 +96,22 @@
 "Info": "Proxy"
 },
 {
-"Name": "🟣PRE PAGO 3",
+"Name": "🟣PRE PAGO 2025 1",
 "FLAG": "vivo",
-"Payload": "[split]BDELETE / [host_port]HTTP/1.1[crlf]Host: minhaclaro.cotclaro.com.br[lf]Host: minhaclaro.cotclaro.com.br[lf]Connection: Upgrade[method][lf]Service: Multi-http[lf]ModeX: Bypass[lf] Enhanced: Upgrade[lf] Proxi: minhaclaro.cotclaro.com.br[lf]Connection: Upgrade[lf]Upgrade: websocket[lf] [host]@[host][lf][lf]",
+"Payload": "MERGE / HTTP/1.1[crlf]Host: oracle.mastertv.store[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[ua][split][crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
-"ProxyIP": "::ffff:fe5:c142",
+"ProxyIP": "104.26.12.205#104.26.13.205#dev-otube.oracle.com#162.159.135.91#investor.ofss.oracle.com#162.159.129.11#investor.ofss.oracle.com#investor.oracle.com#162.159.135.91#dev-otube.oracle.com#otube.oracle.com",
 "ProxyPort": "80",
 "Info": "Proxy"
 },
 {
-"Name": "🟣PRE PAGO 4",
+"Name": "🟣PRE PAGO 2025 2",
 "FLAG": "vivo",
-"Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: serv7.painelvip2.online [crlf]Upgrade: websocket[crlf][crlf]",
+"Payload": "ACL / HTTP/1.1[lf]Host: oracle.mastertv.store[lf]Upgrade: Websocket[lf][split][lf]",
 "SNI": "",
 "TlsIP": "",
-"ProxyIP": "::ffff:fe5:c142",
+"ProxyIP": "104.16.239.166",
 "ProxyPort": "80",
 "Info": "Proxy"
 },
