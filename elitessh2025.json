@@ -1,6 +1,6 @@
 {
-  "Version": "1.01",
-  "ReleaseNotes": "Elitessh GitHub 1.01",
+  "Version": "1.02",
+  "ReleaseNotes": "Elitessh GitHub 1.02",
   "UrlUpdate": "https://abrela.me/elitessh",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -101,7 +101,7 @@
 "Payload": "MERGE / HTTP/1.1[crlf]Host: oracle.mastertv.store[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[ua][split][crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
-"ProxyIP": "104.26.12.205#104.26.13.205#dev-otube.oracle.com#162.159.135.91#investor.ofss.oracle.com#162.159.129.11#investor.ofss.oracle.com#investor.oracle.com#162.159.135.91#dev-otube.oracle.com#otube.oracle.com",
+"ProxyIP": "104.26.12.205",
 "ProxyPort": "80",
 "Info": "Proxy"
 },
