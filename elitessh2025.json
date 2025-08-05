@@ -1,6 +1,6 @@
 {
-  "Version": "1.03",
-  "ReleaseNotes": "Elitessh GitHub 1.03.",
+  "Version": "1.0",
+  "ReleaseNotes": "Elitessh GitHub 1.04",
   "UrlUpdate": "https://abrela.me/elitessh",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -98,7 +98,7 @@
 {
 "Name": "🟣PRE PAGO 2025 1",
 "FLAG": "vivo",
-"Payload": "MERGE / HTTP/1.1[crlf]Host: oracle.mastertv.store[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[ua][split][crlf][crlf]",
+"Payload": "MERGE / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[ua][split][crlf][crlf]",
 "SNI": "",
 "TlsIP": "",
 "ProxyIP": "104.26.12.205",
@@ -108,7 +108,7 @@
 {
 "Name": "🟣PRE PAGO 2025 2",
 "FLAG": "vivo",
-"Payload": "ACL / HTTP/1.1[lf]Host: oracle.mastertv.store[lf]Upgrade: Websocket[lf][split][lf]",
+"Payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
 "SNI": "",
 "TlsIP": "",
 "ProxyIP": "104.16.239.166",
