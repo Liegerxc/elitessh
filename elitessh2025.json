@@ -1,6 +1,6 @@
 {
-  "Version": "1.04",
-  "ReleaseNotes": "Elitessh GitHub 1.04",
+  "Version": "1.05",
+  "ReleaseNotes": "Elitessh GitHub 1.05",
   "UrlUpdate": "https://abrela.me/elitessh",
   "Sms": "https://bitbin.it/yI7gCB5r/raw/",
   "EmailFeedback": "elitessh@gmail.com",
@@ -13,7 +13,7 @@
         "Name": "LOCAL 🔰",
         "TYPE": "premium",
         "FLAG": "br.png",
-        "ServerIP": "192.168.3.122",
+        "ServerIP": "179.216.101.92",
         "CheckUser": "",
         "ServerPort": "22",
         "SSLPort": "443",
